@@ -8,5 +8,13 @@ public class PrintStar0 {
         System.out.println("****");
         System.out.println("*****");
         System.out.println("******");
+
+        //to reverse it
+        System.out.println("******");
+        System.out.println("*****");
+        System.out.println("****");
+        System.out.println("***");
+        System.out.println("**");
+        System.out.println("*");
     }
 }

@@ -1,20 +1,32 @@
-//Read two integers from users, and you need to concatenate them so the output is ab and print it.
+// Given two integers a and b, you need to concatenate them so the output is ab and print it.
 
-import java.util.Scanner;
+import java.util.*;
 
 public class Concatenate {
     public static void main(String[] args) {
         Scanner scn=new Scanner(System.in);
 
-        System.out.println("Enter the first number: ");
-        int n1=scn.nextInt();
-        System.out.println("Enter the second number: ");
-        int n2=scn.nextInt();
+        System.out.print("Enter the value of a: ");
+        int a=scn.nextInt();
+        System.out.print("Enter the value of b: ");
+        int b= scn.nextInt();
 
-        int concatenate=Integer.parseInt(Integer.toString(n1)+Integer.toString(n2));
-        System.out.println(concatenate);
+        //int conacte=a+b;
+
+        System.out.println(Integer.parseInt(Integer.toString(a)+(Integer.toString(b))));
+
+        // Integer.toString(a):
+
+        // Converts the integer a to its string representation.
+        // Example: If a = 5, Integer.toString(a) produces "5".
+
+        // Integer.toString(a):
+
+        // Converts the integer a to its string representation.
+        // Example: If a = 5, Integer.toString(a) produces "5".        
+
+
 
         scn.close();
     }
-    
 }
