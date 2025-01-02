@@ -1,3 +1,5 @@
+// Take an integer n find the sum of the first n natural number.
+
 import java.util.Scanner;
 
 public class SumOfNNaturalNumb {

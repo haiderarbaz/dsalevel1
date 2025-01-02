@@ -1,3 +1,5 @@
+// Take an integer num. Write a program to find last digit of the number.
+
 import java.util.Scanner;
 
 public class LastDigitOfANumb {
