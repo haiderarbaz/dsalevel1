@@ -17,6 +17,8 @@ public class SumOf1stAndLast{
 
         int[] arr= new int[size];
 
+        //
+
         System.out.print("Enter the element of the array: ");
 
         for(int i=0; i<=size-1; i++){
